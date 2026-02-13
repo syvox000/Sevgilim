@@ -286,7 +286,13 @@
             50% { transform: translateY(-10px); }
             100% { transform: translateY(0px); }
         }
-        
+
+        @media (max-width: 768px) {
+    .letter.expanded .letter-content {
+        max-height: 5000px;
+    }
+}
+
         /* Responsive Design */
         @media (max-width: 768px) {
             .welcome-message {
@@ -528,6 +534,7 @@
     </script>
 </body>
 </html>
+
 
 
 
